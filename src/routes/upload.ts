@@ -39,4 +39,5 @@ uploadRouter.post("/", (req, res) => {
   });
 
   res.status(200).send("Arquivos recebidos e salvos com sucesso");
+  res.end();
 });

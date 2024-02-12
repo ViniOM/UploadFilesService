@@ -1,6 +1,6 @@
 import { app } from "./app";
 
-const porta = process.env.PORTA || 3030;
+const porta = process.env.PORTA || 5050;
 
 const server = app.listen(porta, () => {
   console.log(`Rodando em http://localhost:${porta}`);
